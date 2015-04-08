@@ -1,0 +1,147 @@
+
+[
+//start new json - each project in seperate file
+  {
+	  "id":"01",
+
+      "name": "APN Media",
+
+      "client": "APN Media",
+
+      "description": "A collection of print advertisements and logos created exclusively for APN.",
+
+      
+
+         "images": [
+
+            "resources/portfolio/apn/advertisers600x338.gif",
+
+            "resources/portfolio/apn/jobseekers600x338.gif",
+
+            "resources/portfolio/apn/pic_7.gif",
+
+            "resources/portfolio/apn/pic_8.gif",
+
+            "resources/portfolio/apn/pic_10.gif",
+
+            "resources/portfolio/apn/pic_11.gif"
+
+         ],
+
+     
+
+      "services": "Design, Print",
+
+      "link": {}
+
+   },
+
+  {
+	  "id":"02",
+
+      "name": "Dolce Vita",
+
+      "client": "Dolce Vita",
+
+      "description": "Boutique grower of quality olives and cold pressed olive oils. Our boutique olive grove just north of Auckland produces some of New Zealand's finest extra virgin olive oils. Our pure olive oil products are nutrient rich with no extra additives and are highly sought after by food lovers and families as the perfect accompaniment for healthy cuisine.",
+
+      
+
+         "images": [
+
+            "resources/portfolio/dolce_vita/pic_1.gif",
+
+            "resources/portfolio/dolce_vita/pic_1.gif"
+
+         ],
+
+      
+
+      "services": "Design, HTML, CSS, jQuery",
+
+      "link": "http://www.dolcevita.co.nz"
+
+   },
+
+  {
+	  "id":"03",
+
+      "name": "Orthonz",
+
+      "client": "Ivan de Spa",
+
+      "description": "Takapuna based orthodontic treatment and advice for both children and adults seeking to correct teeth and jaw alignment irregularities and problems. Our friendly and professional team is recognized as one of Auckland's most established and respected orthodontic practices offering the very best modern technologies and treatments now available.",
+
+      
+
+         "images": [
+
+            "resources/portfolio/orthonz/pic_1.jpg",
+
+            "resources/portfolio/orthonz/pic_1.jpg"
+
+         ],
+
+      
+
+      "services": "Design, HTML, CSS, jQuery",
+
+      "link": "http://www.orthonz.co.nz"
+
+   },
+
+  {
+	  "id":"04",
+
+      "name": "Sapoc Cards",
+
+      "client": "Gerry Copas",
+
+      "description": "Custom designed artistic cards, created uniquely for each customer.",
+
+      
+
+         "images": [
+
+            "resources/portfolio/sapoc/pic_6.gif",
+
+            "resources/portfolio/sapoc/pic_7.gif"
+
+         ],
+
+      
+
+      "services": "Design, HTML, CSS, jQuery",
+
+      "link": "http://www.sapoccards.co.nz"
+
+   },
+
+   {
+	   "id":"05",
+
+      "name": "Silverdale Kitchens",
+
+      "client": "Silverdale Kitchens",
+
+      "description": "Silverdale Kitchens offer a complete design, manufacture and installation service using state of the art CNC technology to craft superb kitchens, bathroom vanities, laundries and tailor-made cabinetry.",
+
+      
+
+         "images": [
+
+            "resources/portfolio/silverdale_kitchens/pic_1.jpg",
+
+            "resources/portfolio/silverdale_kitchens/pic_1.jpg"
+
+         ],
+
+      
+
+      "services": "Design, HTML, CSS, jQuery",
+
+      "link": "http://www.silverdalekitchens.co.nz"
+
+	}
+	  
+]

@@ -1,0 +1,417 @@
+h1 {
+	font-family: 'Josefin Sans Std Light', arial, serif;
+	font-size: 40px;
+	font-weight: bold;
+	color: #FFF;
+	font-style: normal;
+	font-variant: normal;
+	margin-top: 0px;
+	margin-bottom: 4px;
+	margin-left: 0px;
+	margin-right: 0px;
+	line-height: 1em;
+}
+
+h2 {
+	font-family: 'Neuton', arial, serif;
+	font-size: 28px;
+	font-weight: normal;
+	color: #FEFFF5;
+	font-style: normal;
+	font-variant: normal;
+	margin-top: 0px;
+	margin-bottom: 12px;
+	text-align: left;
+	margin-left: 4px;
+	line-height: 1em;
+}
+
+h3 {
+	font-family: 'Inconsolata', sans-serif;
+	font-size: 18px;
+	font-weight: normal;
+	color: #FFFFFF;
+	font-style: normal;
+	font-variant: normal;
+	margin-left: 0px;
+	margin-top: 0px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+}
+
+h4 {
+	font-family: 'Cantarell', sans-serif;
+	font-size: 12px;
+	color: #3C332A;
+	margin-left: 0px;
+	margin-top: 0px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	font-style: normal;
+	font-weight: normal;
+}
+
+html{
+	height: 100%;
+	overflow:hidden;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	background-color: #F3EDCE;
+}
+
+#flashContainer {
+	width: 100%;
+	height: 100%;
+}
+
+#logo {
+	width: 300px;
+	height: 113px;
+	top: 0px;
+	z-index: 5;
+	visibility: visible;
+	float: right;
+}
+
+#middle {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FFFFFF;
+	font-style: normal;
+	float: left;
+	width: 840px;
+	background-color: #F3EDCE;
+}
+
+#outer-container {
+	width: 100%;
+	background-color: #F3EDCE;
+	background-image: url(../images/filler-02.gif);
+	background-repeat: repeat-x;
+	background-position: center bottom;
+	margin-top: 10px;
+}
+
+#inner-container {
+	color:#FFFFFF;
+	font-size:11px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	width: 840px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+}
+
+#maincontent {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #FFFFFF;
+	font-style: normal;
+	width: 840px;
+	font-weight: normal;
+	line-height: 14pt;
+	text-align: left;
+	background-color: #262D04;
+	float: left;
+	-moz-box-shadow:0px 0px 4px #333;
+	-webkit-box-shadow:0px 0px 4px #333;
+	box-shadow:0px 0px 4px #333;
+	/* For IE 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#333333')";
+
+
+
+	/* For IE 5.5 - 7 */
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#333333');
+	background-image: url(../images/gift-package-02.jpg);
+	background-position: right bottom;
+	background-repeat: repeat-x;
+	height: 400px;
+}
+
+#menu {
+	width: 412px;
+	padding: 0 auto;
+	visibility: visible;
+	float: right;
+}
+
+#header {
+	width: 840px;
+	height: 113px;
+	background-color: #262D04;
+	float: left;
+}
+
+#leftcontent {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #262D04;
+	font-style: normal;
+	padding-top: 8px;
+	padding-bottom: 12px;
+	padding-left: 12px;
+	padding-right: 12px;
+	width: 430px;
+	float: left;
+	font-weight: normal;
+	line-height: 14pt;
+	text-align: left;
+}
+
+#content02 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FFFFFF;
+	font-style: normal;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 2px;
+	padding-right: 2px;
+	width: 472px;
+	float: right;
+}
+
+#rightcontent {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FFFFFF;
+	font-style: normal;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left: 4px;
+	padding-right: 4px;
+	float: right;
+	width: 380px;
+}
+
+#contact {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #0B0B18;
+	font-style: normal;
+	font-weight: bold;
+	float: left;
+	width: 80px;
+	line-height: 1.8em;
+	padding-top: 4px;
+	padding-right: 4px;
+	padding-bottom: 4px;
+	padding-left: 4px;
+	height: 55px;
+}
+
+#contact02 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FFF;
+	font-style: normal;
+	font-weight: bold;
+	float: left;
+	margin-right: 0px;
+	margin-top: 0px;
+	width: 270px;
+	margin-left: 0px;
+	line-height: 1.8em;
+	padding-top: 8px;
+	padding-right: 8px;
+	padding-bottom: 8px;
+	padding-left: 8px;
+	margin-bottom: 0px;
+}
+
+#contact a {
+	color: #FFFFFF;
+}
+
+#copyright {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	width: 212px;
+	font-size: 11px;
+	float: right;
+	margin-top: 12px;
+	margin-right: 12px;
+	color: #262D04;
+	font-weight: bold;
+}
+
+#footer {
+	width: 840px;
+	background-color: #262D04;
+	margin-right: auto;
+	margin-left: auto;
+	height: 60px;
+}
+
+#slideshow {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FFFFFF;
+	font-style: normal;
+	font-weight: bold;
+	background: url(images/fade-image-bg.gif);
+	background-position:center;
+	background-repeat:no-repeat;
+	width: 464px;
+	padding: 0 auto;
+	margin-left: 12px;
+	margin-top: 12px;
+	height: 286px;
+	margin-right: 12px;
+	margin-bottom: 6px;
+	float: right;
+}
+
+.fade-box {
+	width: 464px;
+	text-align:center;
+}
+	
+#map {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FFFFFF;
+	font-style: normal;
+	font-weight: bold;
+	width: 464px;
+	padding: 0 auto;
+	margin-left: 12px;
+	margin-top: 6px;
+	height: 14px;
+	margin-right: 12px;
+	margin-bottom: 12px;
+	float: right;
+}
+
+#port01 {
+}
+
+#port02 {
+}
+
+#port03 {
+}
+
+#port04 {
+}
+
+#port05 {
+}
+
+#port06 {
+}
+
+#port07 {
+}
+
+#port08 {
+}
+
+a:link {
+	color: #FFF; /* Sets color of unvisited and visited links to  white. */
+	text-decoration: none; /* Removes default underline on links. */
+}
+
+a:visited {
+	color: #576651; /* Sets color of unvisited and visited links to  white. */
+	text-decoration: none; /* Removes default underline on links. */
+}
+
+a:hover {
+	color: #8F8B68; /* Sets color of unvisited and visited links to  white. */
+	text-decoration: none; /* Removes default underline on links. */
+}
+
+a:active {
+	color: #FFF; /* Sets color of unvisited and visited links to  white. */
+	text-decoration: none; /* Removes default underline on links. */
+}
+
+.icon {
+	vertical-align: text-top;
+	padding: 4px;
+	width: 20px;
+}
+
+.icontext {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	vertical-align: middle;
+	padding: 4px;
+	color: #FFFFFF;
+	line-height: 10pt;
+}
+
+.portbox {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FFFFFF;
+	font-weight: normal;
+	margin-top: 4px;
+	margin-left: 4px;
+	margin-right: 4px;
+	width: 62px;
+	height: 62px;
+	float: left;
+	margin-bottom: 4px;
+}
+
+.imgfloat {
+	float: left;
+	clear: both;
+	margin-right: 12px;
+	vertical-align: inherit;
+}
+	
+.servtext {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #EEF6F9;
+	font-weight: bold;
+	width: 50%;
+	padding: 4px;
+	vertical-align: text-top;
+}
+
+.servtext li {
+	padding: 2px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+	margin-left: -14px;
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ 
+.clearfix {
+	display: inline-block;
+}
+ 
+html[xmlns] .clearfix {
+	display: block;
+}
+ 
+* html .clearfix {
+	height: 1%;
+}
+
+#leftcontent p {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 12px;
+	color: #F2EDCB;
+	line-height: 1.4em;
+	margin-top: 2px;
+}

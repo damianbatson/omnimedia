@@ -1,0 +1,180 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>DOLCE VITA ESTATES - olive oil</title>
+
+<meta name="keywords" content="web and graphic design nz, multimedia design nz, graphic design nz, graphic designers nz, web design nz, web designers nz, web developers nz, flash designers nz, flash developers nz, redesign nz, graphic redesign nz, web redesign nz, graphic media nz, web multimedia nz, interactive multimedia nz, creative design nz">
+<meta http-equiv="refresh" content="888">
+<meta name="description" content="Whether it's designing a logo, building a brand or a website - Omnimedia’s dedicated team can create something just for you. With years of experience in website design and development, web hosting and domain names registration, graphic design and SEO - Omnimedia is a dynamic business that supports small to medium sized businesses. 
+We tailor our services to suit any requirement and our quality, affordable price, and quick turnaround set us apart from other graphic design and web site design and development companies.">
+
+<link rel="shortcut icon" href="favicon.ico">
+<link rel="stylesheet" href="css/dv03.css" type="text/css" />
+<link rel="stylesheet" href="css/jquery.tabs03.css" type="text/css" media="print, projection, screen">
+<link rel="stylesheet" href="css/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="css/custom-nivo-slider.css" type="text/css" media="screen" />
+
+<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Molengo&subset=latin' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Cantarell' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Josefin+Sans+Std+Light&subset=latin' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Nobile' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Neuton&subset=latin' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Tangerine&subset=latin' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Neucha&subset=latin' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Cardo&subset=latin' rel='stylesheet' type='text/css'>
+
+<script type="text/javascript" src="js/jquery-1.3.1.min.js"></script>
+<script type="text/javascript">
+
+$(document).ready(function() {		
+	
+	//Execute the slideShow, set 4 seconds for each images
+	slideShow(4000);
+
+});
+
+function slideShow(speed) {
+
+
+	//append a LI item to the UL list for displaying caption
+	$('ul.slideshow').append('<li id="slideshow-caption" class="caption"><div class="slideshow-caption-container"><h3></h3><p></p></div></li>');
+
+	//Set the opacity of all images to 0
+	$('ul.slideshow li').css({opacity: 0.0});
+	
+	//Get the first image and display it (set it to full opacity)
+	$('ul.slideshow li:first').css({opacity: 1.0});
+	
+	//Get the caption of the first image from REL attribute and display it
+	$('#slideshow-caption h3').html($('ul.slideshow a:first').find('img').attr('title'));
+	$('#slideshow-caption p').html($('ul.slideshow a:first').find('img').attr('alt'));
+		
+	//Display the caption
+	$('#slideshow-caption').css({opacity: 0.7, bottom:0});
+	
+	//Call the gallery function to run the slideshow	
+	var timer = setInterval('gallery()',speed);
+	
+	//pause the slideshow on mouse over
+	$('ul.slideshow').hover(
+		function () {
+			clearInterval(timer);	
+		}, 	
+		function () {
+			timer = setInterval('gallery()',speed);			
+		}
+	);
+	
+}
+
+function gallery() {
+
+
+	//if no IMGs have the show class, grab the first image
+	var current = ($('ul.slideshow li.show')?  $('ul.slideshow li.show') : $('#ul.slideshow li:first'));
+
+	//Get next image, if it reached the end of the slideshow, rotate it back to the first image
+	var next = ((current.next().length) ? ((current.next().attr('id') == 'slideshow-caption')? $('ul.slideshow li:first') :current.next()) : $('ul.slideshow li:first'));
+		
+	//Get next image caption
+	var title = next.find('img').attr('title');	
+	var desc = next.find('img').attr('alt');	
+
+	//Set the fade in effect for the next image, show class has higher z-index
+	next.css({opacity: 0.0}).addClass('show').animate({opacity: 1.0}, 1000);
+	
+	//Hide the caption first, and then set and display the caption
+	$('#slideshow-caption').animate({bottom:-70}, 300, function () {
+			//Display the content
+			$('#slideshow-caption h3').html(title);
+			$('#slideshow-caption p').html(desc);				
+			$('#slideshow-caption').animate({bottom:0}, 500);	
+	});		
+
+	//Hide the current image
+	current.animate({opacity: 0.0}, 1000).removeClass('show');
+
+}
+</script>
+	
+<script type="text/JavaScript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+
+</head>
+
+<body onload="MM_preloadImages('images/profilecell02.png','images/servicescell02.png','images/portfoliocell02.png','images/contact02.png','images/home02.png')">
+
+
+<div class="clearfix" id="outer-container">
+
+<div class="clearfix" id="inner-container">
+
+<div id="header">
+<div id="logo"><img src="images/dv-logo-02.jpg" width="300" height="113" /></div>
+</div>
+
+<div class="clearfix" id="middle">
+<div id="menu"><ul class="tabs-nav">
+				<li><a href="index_test01.html"><h4>home</h4></a></li>
+				<li><a href="index_test01.html"><h4>products</h4></a></li>
+				<li><a href="index_test01.html"><h4>about us</h4></a></li>
+				<li><a href="index_test01.html"><h4>order</h4></a></li>					
+                </ul></div>
+                </div>
+
+<div class="clearfix" id="maincontent">
+
+<div id="leftcontent">
+  <h1>Living the good sweet life...</h1>
+</div>
+
+<div id="rightcontent"> We are a boutique grower of quality olives and cold pressed olive oils. Our boutique olive grove just
+    north of Auckland produces some of New Zealand's finest extra virgin olive oils.<br />
+    <br />
+Our pure olive oil products are nutrient rich with no extra additives and are highly sought after by
+    food lovers and families as the perfect accompaniment for healthy cuisine.<br />
+    <br />
+    Dolce Vita Estate olive oils embody everything that is &quot;the good sweet life&quot; - try some today!<br />
+    <br />
+<div id="contact"><img src="images/oliveti-logo.png" width="80" height="55" border="0" /></div>
+</div>
+
+</div>
+</div>
+</div>
+
+<div id="footer">
+<div id="contact02">Contact Phone | <a href="mailto:contact@omnimedia.co.nz" target="_blank">sales@dolcevita.co.nz</a> | Postal Address | Copyright &copy; 2010 DOLCE VITA<br />
+  </div>
+  </div>
+</body>
+</html>

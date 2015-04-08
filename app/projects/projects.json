@@ -1,0 +1,37 @@
+[
+    {
+        "age": 0, 
+        "id": "apn-digital", 
+        "imageUrl": "app/portfolio_images/apn/pic_1.gif", 
+        "name": "APN Digital Media", 
+        "snippet": "A collection of print advertisements and logos created exclusively for APN."
+    }, 
+    {
+        "age": 1, 
+        "id": "dolce-vita", 
+        "imageUrl": "app/portfolio_images/dolce_vita/pic_1.jpg", 
+        "name": "Dolce Vita", 
+        "snippet": "Boutique grower of quality olives and cold pressed olive oils. Our boutique olive grove just north of Auckland produces some of New Zealand's finest extra virgin olive oils. Our pure olive oil products are nutrient rich with no extra additives and are highly sought after by food lovers and families as the perfect accompaniment for healthy cuisine."
+    }, 
+    {
+        "age": 2, 
+        "id": "orthonz", 
+        "imageUrl": "app/portfolio_images/orthonz/pic_1.jpg", 
+        "name": "Orthonz Orthodontists", 
+        "snippet": "Takapuna based orthodontic treatment and advice for both children and adults seeking to correct teeth and jaw alignment irregularities and problems. Our friendly and professional team is recognized as one of Auckland's most established and respected orthodontic practices offering the very best modern technologies and treatments now available."
+    }, 
+    {
+        "age": 3, 
+        "id": "sapoc-cards", 
+        "imageUrl": "app/portfolio_images/sapoc/pic_6.gif", 
+        "name": "Sapoc Cards", 
+        "snippet": "Custom designed artistic cards, created uniquely for each customer."
+    }, 
+    {
+        "age": 4, 
+        "id": "silverdale-kitchens", 
+        "imageUrl": "app/portfolio_images/silverdale_kitchens/pic_1.jpg", 
+        "name": "Silverdale Kitchens", 
+        "snippet": "Silverdale Kitchens offer a complete design, manufacture and installation service using state of the art CNC technology to craft superb kitchens, bathroom vanities, laundries and tailor-made cabinetry."
+    }
+]

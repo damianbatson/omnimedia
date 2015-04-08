@@ -1,0 +1,375 @@
+h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	color: #536675;
+	font-style: normal;
+	font-variant: normal;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	margin-left: 2px;
+	margin-right: 0px;
+	line-height: 1em;
+}
+
+h2 {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #E8F3F9;
+	font-style: normal;
+	font-variant: normal;
+	margin-top: 12px;
+	margin-bottom: 6px;
+	text-align: left;
+	margin-left: 10px;
+	line-height: 18px;
+}
+
+h3 {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #EDEEED;
+	font-style: italic;
+	font-variant: normal;
+	margin-left: 20px;
+	margin-top: 14px;
+	margin-bottom: 0px;
+	margin-right: 4px;
+}
+
+html {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #000000;
+}
+
+#flashContainer {
+	width: 100%;
+	height: 100%;
+}
+
+#header {
+	left: 0px;
+	top: 0px;
+	z-index: 0;
+	visibility: visible;
+}
+
+#logo {
+	width: 180px;
+	height: 110px;
+	left: 40px;
+	top: 0px;
+	z-index: 5;
+	visibility: visible;
+	float: left;
+}
+
+#ribbons {
+	width: 180px;
+	height: 180px;
+	position: absolute;
+	top: 14px;
+	z-index: 4;
+	left: 24px;
+	visibility: visible;
+}
+
+#outer-container {
+	width: 100%;
+	height: 100%;
+}
+
+#inner-container {
+	color:#FFFFFF;
+	font-size:11px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	width: 1000px;
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#content-container {
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	height: 645px;
+}
+
+#menu {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	width: 100px;
+	padding: 0 auto;
+	left: -112px;
+	top: 180px;
+	visibility: visible;
+	z-index: 3;
+	position: absolute;
+}
+
+#header {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 38px;
+	padding: 0 auto;
+	color: #FFFFFF;
+	font-style: normal;
+	font-weight: bold;
+	width: 1000px;
+	margin-top: 6px;
+	height: 141px;
+	background-color: #000000;
+}
+
+#content01 {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #4D5C6F;
+	font-style: normal;
+	padding-top: 10px;
+	padding-bottom: 4px;
+	padding-left: 10px;
+	padding-right: 12px;
+	width: 468px;
+	float: left;
+	font-weight: normal;
+	line-height: 1.3em;
+	text-align: left;
+	clear: both;
+	background-color: #F1EEE8;
+	margin-top: 18px;
+	margin-left: 8px;
+	border-top-color: #FFFFFF;
+	border-right-color: #FFFFFF;
+	border-bottom-color: #FFFFFF;
+	border-left-color: #FFFFFF;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-width: medium;
+	border-right-width: medium;
+	border-left-width: medium;
+	border-bottom-width: medium;
+	height: 580px;
+}
+
+#content02 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FFFFFF;
+	font-style: normal;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 2px;
+	padding-right: 2px;
+	width: 472px;
+	float: right;
+}
+
+#content03 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FFFFFF;
+	font-style: normal;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 2px;
+	padding-right: 2px;
+	float: right;
+	width: 480px;
+}
+
+#contact {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #FFFFFF;
+	font-style: normal;
+	font-weight: bold;
+	float: right;
+	padding: 0 auto;
+	margin-right: 10px;
+	margin-top: 20px;
+	width: 300px;
+	margin-left: 10px;
+	line-height: 1.5em;
+}
+
+#contact a {
+	color: #FFFFFF;
+}
+
+#footer {
+	height: 60px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1000px;
+	background-repeat: no-repeat;
+	background-color: #000000;
+}
+
+#slideshow {
+	width: 464px;
+	height: 286px;
+	padding: 0 auto;
+	margin-left: 6px;
+	margin-top: 16px;
+	margin-right: 10px;
+	margin-bottom: 12px;
+	float: right;
+	border-top-color: #FFFFFF;
+	border-top-width: medium;
+	border-top-style: solid;
+	border-right-color: #FFFFFF;
+	border-bottom-color: #FFFFFF;
+	border-left-color: #FFFFFF;
+	border-bottom-style: solid;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-width: medium;
+	border-bottom-width: medium;
+	border-left-width: medium;
+}
+
+#map {
+	width: 464px;
+	height: 286px;
+	padding: 0 auto;
+	margin-left: 6px;
+	margin-top: 2px;
+	margin-right: 10px;
+	margin-bottom: 12px;
+	float: right;
+	border-top-color: #FFFFFF;
+	border-top-width: medium;
+	border-top-style: solid;
+	border-right-color: #FFFFFF;
+	border-bottom-color: #FFFFFF;
+	border-left-color: #FFFFFF;
+	border-bottom-style: solid;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-width: medium;
+	border-bottom-width: medium;
+	border-left-width: medium;
+
+}
+
+#port01 {
+}
+
+#port02 {
+}
+
+#port03 {
+}
+
+#port04 {
+}
+
+#port05 {
+}
+
+#port06 {
+}
+
+#port07 {
+}
+
+#port08 {
+}
+
+a:link {
+  color: #006699; /* Sets color of unvisited and visited links to  white. */
+  text-decoration: none; /* Removes default underline on links. */
+}
+
+a:visited {
+  	color: #006699; /* Sets color of unvisited and visited links to  white. */
+  	text-decoration: none; /* Removes default underline on links. */
+}
+
+a:hover {
+  	color: #3399FF; /* Sets color of unvisited and visited links to  white. */
+  	text-decoration: none; /* Removes default underline on links. */
+}
+
+a:active {
+  	color: #FFFFFF; /* Sets color of unvisited and visited links to  white. */
+  	text-decoration: none; /* Removes default underline on links. */
+}
+
+.icon {
+	vertical-align: text-top;
+	padding: 4px;
+	width: 20px;
+}
+
+.icontext {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	vertical-align: middle;
+	padding: 4px;
+	color: #FFFFFF;
+	line-height: 10pt;
+}
+
+.portbox {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FFFFFF;
+	font-weight: normal;
+	margin-top: 4px;
+	margin-left: 70px;
+	margin-right: 4px;
+	width: 160px;
+	height: 22px;
+	float: left;
+	margin-bottom: 4px;
+}
+
+.imgfloat {
+	float: left;
+	clear: both;
+	margin-right: 12px;
+	vertical-align: middle;
+}
+	
+.servtext {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #006699;
+	font-weight: bold;
+	width: 50%;
+	padding: 4px;
+	vertical-align: text-top;
+}
+
+.servtext li {
+	padding: 2px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+	margin-left: -14px;
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ 
+.clearfix {
+	display: inline-block;
+}

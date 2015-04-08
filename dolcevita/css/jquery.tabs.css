@@ -1,0 +1,96 @@
+@media projection, screen {
+.tabs-hide {
+	display: none;
+}
+}
+
+@media print {
+.tabs-nav {
+	display: none;
+}
+}
+
+.tabs-nav {
+	list-style: none;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	float: left;
+}
+
+.tabs-nav:after {
+    display: block;
+    clear: both;
+    content: " ";
+}
+
+.tabs-nav li {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 2px;
+	float: left;
+	-moz-border-radius-topleft: 4px;
+	-moz-border-radius-topright: 4px;
+}
+
+.tabs-nav a {
+	position: relative;
+	text-align: center;
+	width: 110px;
+	white-space: nowrap;
+	display: block;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	background-color: #262D04;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.tabs-nav h4 {
+	margin-bottom: 0px;
+	margin-top: 0px;
+	font-family: 'Neuton', arial, serif;
+	font-size: 14px;
+	color: #FFF;
+	font-weight: normal;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+.tabs-nav .tabs-selected a {
+	outline: 0; /* prevent dotted border in Firefox */
+	cursor: text;
+	width: 110px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	background-color: #113D8C;
+}
+
+.tabs-nav a:hover, .tabs-nav a:focus, .tabs-nav a:active { /* @ Opera, we need to be explicit again here now... */
+	cursor: pointer;
+	width: 110px;
+	background-color: #8D876D;
+}
+
+.tabs-container {
+	padding: 8px; /* declare background color for container to avoid distorted fonts in IE while fading */
+	background-color: #113D8C;
+	width: 600px;
+	float: left;
+	margin-top: 0px;
+}
+
+.tabs-loading em {
+    padding: 0 0 0 20px;
+    background: url(loading.gif) no-repeat 0 50%;
+}

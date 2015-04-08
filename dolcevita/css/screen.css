@@ -1,0 +1,111 @@
+	
+	img{
+	border:none;
+	}
+
+    /* image replacement */
+	
+.graphic, #prevBtn, #nextBtn, #slider1prev, #slider1next{
+	margin:0;
+	padding:0;
+	display:block;
+	overflow:hidden;
+	text-indent:-8000px;
+	}
+	
+    /* // image replacement */
+			
+#container{	
+	margin:0 auto;
+	position:relative;
+	text-align:left;
+	width:696px;
+	background:#fff;		
+	margin-bottom:2em;
+	}	
+				
+	#content{
+	position:relative;
+	}			
+
+	#slider ul, #slider li,
+	#slider2 ul, #slider2 li{
+	margin:0;
+	padding:0;
+	list-style:none;
+	}
+		
+	#slider2{
+	margin-top:1em;
+	}
+	
+	#slider li, #slider2 li{
+	/* define width and height of list item (slide) entire slider area will adjust according to the parameters provided here */ 
+	width:360px;
+	height:360px;
+	overflow:hidden;
+	}
+		
+	#prevBtn, #nextBtn,
+	#slider1next, #slider1prev{ 
+	display:block;
+	width:30px;
+	height:60px;
+	left:-30px;
+	top:71px;
+	z-index:1000;
+	}
+		
+	#nextBtn, #slider1next{ 
+	left:696px;
+	}	
+															
+	#prevBtn a, #nextBtn a,
+	#slider1next a, #slider1prev a{  
+	display:block;
+	width:30px;
+	height:60px;
+	background:url(../images/btn_prev.gif) no-repeat 0 0;	
+	}
+		
+	#nextBtn a, #slider1next a{ 
+	background:url(../images/btn_next.gif) no-repeat 0 0;	
+	}	
+		
+	/* numeric controls */	
+
+	ol#controls{
+	margin:1em 0;
+	padding:0;
+	height:28px;	
+	}
+		
+	ol#controls li{
+	margin:0 6px 0 0; 
+	padding:0;
+	float:left;
+	list-style:none;
+	height:28px;
+	line-height:28px;
+	}
+		
+	ol#controls li a{
+	float:left;
+	height:28px;
+	line-height:28px;
+	border:1px solid #ffffff;
+	background:#00A890;
+	color:#555555;
+	padding:0 10px;
+	text-decoration:none;
+	}
+		
+	ol#controls li.current a{
+	background:#113D8C;
+	}
+		
+	ol#controls li a:focus, #prevBtn a:focus, #nextBtn a:focus{
+	outline:none;
+	color: #FFFFFF;
+	}
+	

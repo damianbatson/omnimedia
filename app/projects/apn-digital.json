@@ -1,0 +1,67 @@
+{
+
+    "android": {
+        "os": "Android 2.2", 
+        "ui": ""
+    }, 
+    "availability": [
+        "Verizon"
+    ], 
+    "battery": {
+        "standbyTime": "230 hours", 
+        "talkTime": "8 hours", 
+        "type": "Lithium Ion (Li-Ion) (1400 mAH)"
+    }, 
+    "camera": {
+        "features": [
+            "Flash", 
+            "Video"
+        ], 
+        "primary": "5.0 megapixels"
+    }, 
+    "connectivity": {
+        "bluetooth": "Bluetooth 2.1", 
+        "cell": "WCDMA 850/1900/2100, CDMA 800/1900, GSM 850/900/1800/1900, HSDPA 10.2 Mbps (Category 9/10), CDMA EV-DO Release A, EDGE Class 12, GPRS Class 12, HSUPA 1.8 Mbps", 
+        "gps": true, 
+        "infrared": false, 
+        "wifi": "802.11 b/g/n"
+    }, 
+    "description": "A collection of print advertisements and logos created exclusively for APN.", 
+    "display": {
+        "screenResolution": "FWVGA (854 x 480)", 
+        "screenSize": "3.7 inches", 
+        "touchScreen": true
+    }, 
+    "hardware": {
+        "accelerometer": true, 
+        "audioJack": "3.5mm", 
+        "cpu": "1.2 GHz TI OMAP", 
+        "fmRadio": false, 
+        "physicalKeyboard": true, 
+        "usb": "USB 2.0"
+    }, 
+    "id": "droid-2-global-by-motorola", 
+    "images": [
+        "app/portfolio_images/apn/pic_1.gif", 
+		"app/portfolio_images/apn/pic_2.gif",
+        "app/portfolio_images/apn/pic_3.gif", 
+        "app/portfolio_images/apn/pic_4.gif",
+		"app/portfolio_images/apn/pic_5.gif",
+		"app/portfolio_images/apn/pic_6.gif",
+		"app/portfolio_images/apn/pic_7.gif"
+    ], 
+    "name": "APN Digital Media",
+	
+    "sizeAndWeight": {
+        "dimensions": [
+            "60.5 mm (w)", 
+            "116.3 mm (h)", 
+            "13.7 mm (d)"
+        ], 
+        "weight": "169.0 grams"
+    }, 
+    "storage": {
+        "flash": "8192MB", 
+        "ram": "512MB"
+    }
+}

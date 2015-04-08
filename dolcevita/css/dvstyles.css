@@ -1,0 +1,437 @@
+h1 {
+	font-family: 'Tangerine', arial, serif;
+	font-size: 64px;
+	font-weight: normal;
+	color: #F2EDCB;
+	font-style: italic;
+	font-variant: normal;
+	margin-top: 14px;
+	margin-bottom: 6px;
+	margin-left: 0px;
+	margin-right: 0px;
+	line-height: 1em;
+}
+
+h2 {
+	font-family: 'Lobster', sans-serif;
+	font-size: 34px;
+	font-weight: normal;
+	color: #8D876D;
+	font-style: normal;
+	font-variant: normal;
+	margin-top: 2px;
+	margin-bottom: 12px;
+	text-align: left;
+	margin-left: 4px;
+	line-height: 1em;
+}
+
+h3 {
+	font-family: 'Cantarell', sans-serif;
+	font-size: 26px;
+	font-weight: bold;
+	color: #575F30;
+	font-style: normal;
+	font-variant: normal;
+	margin-bottom: 10px;
+	line-height: 1em;
+	margin-top: 2px;
+}
+
+h4 {
+	font-family: 'Lobster', sans-serif;
+	font-size: 18px;
+	color: #4C4C26;
+	margin-left: 0px;
+	font-style: normal;
+	font-weight: bold;
+	margin-bottom: 0px;
+	margin-top: 10px;
+	margin-right: 0px;
+}
+
+h5 {
+	margin-left: 30px;
+	font-family: 'Arimo', arial, serif;
+	font-size: 14px;
+	font-weight: normal;
+	color: #FFF;
+	line-height: 1.5em;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	background-color: #262D04;
+}
+
+#flashContainer {
+	width: 100%;
+	height: 100%;
+}
+
+#logo {
+	width: 400px;
+	height: 151px;
+	top: 0px;
+	z-index: 5;
+	visibility: visible;
+}
+
+#middle {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FFFFFF;
+	font-style: normal;
+	float: left;
+	width: 840px;
+	background-color: #262D04;
+	-moz-box-shadow:0px 0px 4px #333;
+	-webkit-box-shadow:0px 0px 4px #333;
+	box-shadow:0px 0px 4px #333;
+	/* For IE 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#333333')";
+	/* For IE 5.5 - 7 */
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#333333');
+}
+
+#outer-container {
+	width: 100%;
+	background-color: #262D04;
+	background-image: url(../images/filler.gif);
+	background-repeat: repeat-x;
+	background-position: left bottom;
+	margin-top: 10px;
+}
+
+#inner-container {
+	color:#FFFFFF;
+	font-size:11px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	width: 840px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+}
+
+#maincontent {
+	width: 840px;
+	text-align: left;
+	background-color: #8D876D;
+	float: left;
+	-moz-box-shadow:0px 0px 4px #333;
+	-webkit-box-shadow:0px 0px 4px #333;
+	box-shadow:0px 0px 4px #333;
+	/* For IE 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#333333')";
+	/* For IE 5.5 - 7 */
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#333333');
+	background-image: url(../images/bottle-01.jpg);
+	background-position: center bottom;
+	background-repeat: no-repeat;
+}
+
+#menu {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	width: 840px;
+	padding: 0 auto;
+	visibility: visible;
+	float: right;
+
+}
+
+#header {
+	width: 840px;
+	height: 151px;
+	background-color: #576651;
+	float: left;
+}
+
+#leftcontent {
+	padding-top: 8px;
+	padding-bottom: 4px;
+	padding-left: 8px;
+	padding-right: 8px;
+	width: 600px;
+	float: left;
+	background-repeat: no-repeat;
+	text-align: left;
+}
+
+#leftcontent_index {
+	font-size: 14px;
+	color: #262D04;
+	font-style: normal;
+	padding-top: 8px;
+	padding-bottom: 4px;
+	padding-left: 8px;
+	padding-right: 8px;
+	width: 600px;
+	float: left;
+	font-weight: normal;
+	line-height: 14pt;
+	background-repeat: no-repeat;
+	text-align: left;
+	height: 480px;
+}
+
+#rightcontent {
+	font-size: 11px;
+	color: #FFFFFF;
+	font-style: normal;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left: 4px;
+	padding-right: 4px;
+	float: right;
+	width: 200px;
+}
+
+#contact {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #0B0B18;
+	font-style: normal;
+	font-weight: bold;
+	float: left;
+	width: 80px;
+	line-height: 1.8em;
+	padding-top: 4px;
+	padding-right: 4px;
+	padding-bottom: 4px;
+	padding-left: 4px;
+	height: 55px;
+	clear: left;
+}
+
+#contact02 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #113D8C;
+	font-style: normal;
+	font-weight: bold;
+	float: left;
+	margin-right: 0px;
+	margin-top: 0px;
+	width: 784px;
+	margin-left: 0px;
+	line-height: 1.8em;
+	padding-top: 8px;
+	padding-right: 8px;
+	padding-bottom: 8px;
+	padding-left: 8px;
+	margin-bottom: 0px;
+}
+
+#contact a {
+	color: #FFFFFF;
+}
+
+#copyright {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	width: 212px;
+	font-size: 11px;
+	float: right;
+	margin-top: 12px;
+	margin-right: 12px;
+	color: #262D04;
+	font-weight: bold;
+}
+
+#footer {
+	height: 40px;
+	background-image: url(../images/box_footer.png);
+	width: 840px;
+	background-repeat: no-repeat;
+	background-color: #8D876D;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#slideshow {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FFFFFF;
+	font-style: normal;
+	font-weight: bold;
+	background: url(images/fade-image-bg.gif);
+	background-position:center;
+	background-repeat:no-repeat;
+	width: 464px;
+	padding: 0 auto;
+	margin-left: 12px;
+	margin-top: 12px;
+	height: 286px;
+	margin-right: 12px;
+	margin-bottom: 6px;
+	float: right;
+}
+
+.fade-box {
+	width: 464px;
+	text-align:center;
+}
+	
+#map {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FFFFFF;
+	font-style: normal;
+	font-weight: bold;
+	width: 464px;
+	padding: 0 auto;
+	margin-left: 12px;
+	margin-top: 6px;
+	height: 14px;
+	margin-right: 12px;
+	margin-bottom: 12px;
+	float: right;
+}
+
+#port01 {
+}
+
+#port02 {
+}
+
+#port03 {
+}
+
+#port04 {
+}
+
+#port05 {
+}
+
+#port06 {
+}
+
+#port07 {
+}
+
+#port08 {
+}
+
+a:link {
+	color: #F2EDCB; /* Sets color of unvisited and visited links to  white. */
+	text-decoration: none; /* Removes default underline on links. */
+}
+
+a:visited {
+	color: #576651; /* Sets color of unvisited and visited links to  white. */
+	text-decoration: none; /* Removes default underline on links. */
+}
+
+a:hover {
+	color: #576651; /* Sets color of unvisited and visited links to  white. */
+	text-decoration: none; /* Removes default underline on links. */
+}
+
+a:active {
+	color: #F2EDCB; /* Sets color of unvisited and visited links to  white. */
+	text-decoration: none; /* Removes default underline on links. */
+}
+
+.portbox {
+	font-family: 'Arimo', arial, serif;
+	font-size: 12px;
+	color: #505155;
+	font-weight: bold;
+	margin-top: 8px;
+	margin-left: 8px;
+	margin-right: 8px;
+	width: 570px;
+	float: left;
+	margin-bottom: 8px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-right: 8px;
+	padding-left: 6px;
+	background-color: #C4C492;
+	border-top-color: #4A5125;
+	border-right-color: #4A5125;
+	border-bottom-color: #4A5125;
+	border-left-color: #4A5125;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-width: thin;
+	border-right-width: thin;
+	border-bottom-width: thin;
+	border-left-width: thin;
+	line-height: 1.3em;
+	font-style: normal;
+	font-variant: normal;
+}
+
+.imgfloat {
+	float: left;
+	clear: both;
+	margin-right: 24px;
+	margin-bottom: 0px;
+}
+	
+.aboutusicon {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #020202;
+	font-weight: bold;
+	width: 250px;
+	vertical-align: text-top;
+	float: left;
+	padding-top: 8px;
+	padding-right: 8px;
+	padding-bottom: 8px;
+	padding-left: 8px;
+	background-color: #576651;
+	margin-right: 6px;
+	margin-bottom: 6px;
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ 
+.clearfix {
+	display: inline-block;
+}
+ 
+html[xmlns] .clearfix {
+	display: block;
+}
+ 
+* html .clearfix {
+	height: 1%;
+}
+
+#leftcontent p {
+	font-family: 'Arimo', arial, serif;
+	font-size: 14px;
+	color: #FFFEFF;
+	line-height: 1.5em;
+	margin-left: 10px;
+	font-style: normal;
+	font-weight: normal;
+}
+
+#leftcontent_index p {
+	font-family: 'Arimo', arial, serif;
+	font-size: 14px;
+	color: #FFFEFF;
+	line-height: 1.5em;
+	margin-left: 10px;
+	font-style: normal;
+	font-weight: normal;
+}
+
+form {
+	margin-top: 10px;
+}

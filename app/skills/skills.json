@@ -1,0 +1,65 @@
+[
+    {
+        "name": "HTML5"
+    }, 
+    {
+        "name": "CSS3"
+    }, 
+    {
+        "name":"Bootstrap 3.0"
+    },
+    {
+        "name": "JQuery 2.0"
+    }, 
+    {
+        "name": "Express.js"
+    }, 
+    {
+        "name": "Angular.js"
+    },
+    {
+        "name": "Bower/Composer"
+    }, 
+    {
+        "name": "Grunt/Gulp"
+    },
+	{
+        "name": "Ionic Framework"
+    }, 
+    {
+        "name": "Firebase"
+    },
+	{
+        "name": "Laravel 4.2/5.0"
+    },
+	{
+        "name": "PHP"
+    },
+	{
+        "name": "MongoDB"
+    },
+	{
+        "name": "MySQL"
+    },
+    {
+        "name": "node.JS"
+    },
+    {
+        "name":"Laravel Forge"
+    },
+    {
+        "name":"Laravel Homestead"
+    },
+    {
+        "name": "Behat"
+    },
+    {
+        "name": "PHPSpec"
+    },
+    {
+        "name":"Karma"
+    },
+    {
+        "name":"Jasmine 2.0"
+    }
+]
